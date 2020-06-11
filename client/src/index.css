@@ -61,7 +61,7 @@ body {
   padding: 5px 10px;
   background-color: lightseagreen;
 }
-.save-button:hover {
+.save-button:hover, .edit:hover, .delete:hover {
   background-color: green;
   color: white;
 }
@@ -74,4 +74,22 @@ body {
 .movie-warning {
   color: red;
   text-align: center;
+}
+
+.edit {
+  position: absolute;
+  right: 25px;
+  bottom: 65px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightseagreen;
+}
+
+.delete {
+  position: absolute;
+  right: 25px;
+  bottom: 20px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightseagreen;
 }
